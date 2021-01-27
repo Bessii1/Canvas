@@ -1,0 +1,32 @@
+div{
+    width: 5%;
+    height: 100%;
+    border: 0px solid black;   
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border: 0px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+ 
+    justify-content: flex-start;
+}
+li{
+    font-size: 12px;
+    border: 0.4px solid black;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+.formButtonfront {
+    border:1px solid gray;
+    border-radius:7%;
+    font-size:0.875;
+    word-wrap: break-word;
+    width: 100px; // only for IE8
+    max-width: 100%;
+   }
